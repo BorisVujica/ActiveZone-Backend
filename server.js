@@ -15,10 +15,11 @@ const app = express();
 
 app.use(
   cors({
-    origin:
-      process.env.NODE_ENV === "production"
-        ? "https://active-zone-frontend.vercel.app"
-        : "http://localhost:3000",
+    origin:[
+      
+        "https://active-zone-frontend-borisvujicas-projects.vercel.app",
+        "http://localhost:3000"
+    ],
     credentials: true,
   })
 );
