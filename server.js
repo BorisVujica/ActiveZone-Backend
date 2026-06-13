@@ -18,7 +18,7 @@ app.use(
     origin:[
       
         
-        "https://active-zone-frontend-6dnai1iol-borisvujicas-projects.vercel.app",
+        "https://active-zone-frontend.vercel.app",
         "http://localhost:3000"
     ],
     credentials: true,
