@@ -17,7 +17,8 @@ app.use(
   cors({
     origin:[
       
-        "https://active-zone-frontend-borisvujicas-projects.vercel.app",
+        
+        "https://active-zone-frontend-6dnai1iol-borisvujicas-projects.vercel.app",
         "http://localhost:3000"
     ],
     credentials: true,
