@@ -6,7 +6,7 @@ import dotenv from "dotenv";
 import authRoutes from "./routes/authRoutes.js";
 import workoutRoutes from "./routes/workoutRoutes.js";
 import exerciseRoutes from "./routes/exerciseRoutes.js";
-
+import securityRoutes from "./routes/securityRoutes.js";
 import seedExercises from "./seedExercises.js";
 
 dotenv.config();
@@ -30,7 +30,7 @@ app.use(express.json());
 app.use("/api/auth", authRoutes);
 app.use("/api/workouts", workoutRoutes);
 app.use("/api/exercises", exerciseRoutes);
-
+app.use("/api/security", securityRoutes);
 const PORT = process.env.PORT || 5000;
 
 const startServer = async () => {
